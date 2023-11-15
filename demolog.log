@@ -1,0 +1,358 @@
+2023-11-15T07:31:16.226+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.2 with PID 12328 (E:\dev-spring-boot\demo\target\classes started by Salam in E:\dev-spring-boot\demo)
+2023-11-15T07:31:16.229+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T07:31:16.301+03:30  INFO 12328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-15T07:31:16.302+03:30  INFO 12328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-15T07:31:17.988+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15T07:31:17.998+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T07:31:17.999+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T07:31:18.060+03:30  INFO 12328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15T07:31:18.061+03:30  INFO 12328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1758 ms
+2023-11-15T07:31:18.806+03:30  WARN 12328 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7d498160-7378-494c-ab35-85761682a063
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-15T07:31:18.949+03:30  INFO 12328 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-11-15T07:31:18.960+03:30  INFO 12328 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@14ce2c9f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@220b0d17, org.springframework.security.web.context.SecurityContextHolderFilter@2ded779f, org.springframework.security.web.header.HeaderWriterFilter@10726bcd, org.springframework.web.filter.CorsFilter@47c05999, org.springframework.security.web.csrf.CsrfFilter@65286188, org.springframework.security.web.authentication.logout.LogoutFilter@39792f47, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@69182a84, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7ecd671b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@63042d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1835d8c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b15c6fa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50dec30c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65ac6a6a, org.springframework.security.web.access.ExceptionTranslationFilter@5df77f71, org.springframework.security.web.access.intercept.AuthorizationFilter@54b3e978]
+2023-11-15T07:31:19.009+03:30  INFO 12328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-15T07:31:19.089+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15T07:31:19.114+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 3.453 seconds (process running for 6.755)
+2023-11-15T07:32:17.049+03:30  INFO 12328 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-15T07:32:17.074+03:30  INFO 12328 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-15T07:32:17.194+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.2 with PID 12328 (E:\dev-spring-boot\demo\target\classes started by Salam in E:\dev-spring-boot\demo)
+2023-11-15T07:32:17.195+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T07:32:17.659+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15T07:32:17.660+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T07:32:17.660+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T07:32:17.687+03:30  INFO 12328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15T07:32:17.687+03:30  INFO 12328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 488 ms
+2023-11-15T07:32:17.918+03:30  WARN 12328 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b580de76-fa05-41ad-8fac-596046f3fa86
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-15T07:32:17.930+03:30  INFO 12328 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-11-15T07:32:17.935+03:30  INFO 12328 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@71b77773, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@471c61ea, org.springframework.security.web.context.SecurityContextHolderFilter@479ac74e, org.springframework.security.web.header.HeaderWriterFilter@3265c0e7, org.springframework.web.filter.CorsFilter@45a418bd, org.springframework.security.web.csrf.CsrfFilter@250e9485, org.springframework.security.web.authentication.logout.LogoutFilter@4d86c2fd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@fa1a36f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4402135f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@662c68f0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@17b693ba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16e1d984, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@587c824f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2cea87a9, org.springframework.security.web.access.ExceptionTranslationFilter@55c3720d, org.springframework.security.web.access.intercept.AuthorizationFilter@25983266]
+2023-11-15T07:32:17.950+03:30  INFO 12328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-15T07:32:17.974+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15T07:32:17.987+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.84 seconds (process running for 65.628)
+2023-11-15T07:32:17.992+03:30  INFO 12328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-15T07:32:59.866+03:30  INFO 12328 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-15T07:32:59.888+03:30  INFO 12328 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-15T07:33:00.001+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.2 with PID 12328 (E:\dev-spring-boot\demo\target\classes started by Salam in E:\dev-spring-boot\demo)
+2023-11-15T07:33:00.002+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T07:33:00.475+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15T07:33:00.476+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T07:33:00.476+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T07:33:00.494+03:30  INFO 12328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15T07:33:00.495+03:30  INFO 12328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 486 ms
+2023-11-15T07:33:00.658+03:30  WARN 12328 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f069affd-1bfa-4c12-a798-018a0f4a10d3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-15T07:33:00.668+03:30  INFO 12328 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-11-15T07:33:00.672+03:30  INFO 12328 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@244656dd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6791d442, org.springframework.security.web.context.SecurityContextHolderFilter@1fdcad9, org.springframework.security.web.header.HeaderWriterFilter@32e8a9a7, org.springframework.web.filter.CorsFilter@329377b, org.springframework.security.web.csrf.CsrfFilter@4973ef39, org.springframework.security.web.authentication.logout.LogoutFilter@63a1c6f5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5fc77378, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@54a3cb19, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7928487c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3f58a476, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5721f7f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23f1eb51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f4e193a, org.springframework.security.web.access.ExceptionTranslationFilter@4a77ca7f, org.springframework.security.web.access.intercept.AuthorizationFilter@597f34d]
+2023-11-15T07:33:00.689+03:30  INFO 12328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-15T07:33:00.716+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15T07:33:00.734+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.788 seconds (process running for 108.374)
+2023-11-15T07:33:00.739+03:30  INFO 12328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-15T07:47:50.462+03:30  INFO 12328 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-15T07:47:50.481+03:30  INFO 12328 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-15T07:47:50.583+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.2 with PID 12328 (E:\dev-spring-boot\demo\target\classes started by Salam in E:\dev-spring-boot\demo)
+2023-11-15T07:47:50.583+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T07:47:50.835+03:30  WARN 12328 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.example.demo.DemoApplication]: Error processing condition on org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$DifferentManagementContextConfiguration
+2023-11-15T07:47:50.848+03:30  INFO 12328 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-15T07:47:50.875+03:30 ERROR 12328 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.example.demo.DemoApplication]: Error processing condition on org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$DifferentManagementContextConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:527) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:729) ~[spring-context-6.0.13.jar:6.0.13]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:726) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:697) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:182) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:415) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:779) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:597) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.5.jar:3.1.5]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.5.jar:3.1.5]
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$DifferentManagementContextConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.1.5.jar:3.1.5]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:219) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:365) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:265) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:517) ~[spring-context-6.0.13.jar:6.0.13]
+	... 21 common frames omitted
+Caused by: org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value [7070;]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:192) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:175) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.core.env.AbstractPropertyResolver.convertValueIfNecessary(AbstractPropertyResolver.java:265) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertyResolver.getProperty(ConfigurationPropertySourcesPropertyResolver.java:81) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertyResolver.getProperty(ConfigurationPropertySourcesPropertyResolver.java:65) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:563) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.boot.actuate.autoconfigure.web.server.ManagementPortType.getPortProperty(ManagementPortType.java:64) ~[spring-boot-actuator-autoconfigure-3.1.5.jar:3.1.5]
+	at org.springframework.boot.actuate.autoconfigure.web.server.ManagementPortType.get(ManagementPortType.java:58) ~[spring-boot-actuator-autoconfigure-3.1.5.jar:3.1.5]
+	at org.springframework.boot.actuate.autoconfigure.web.server.OnManagementPortCondition.getMatchOutcome(OnManagementPortCondition.java:49) ~[spring-boot-actuator-autoconfigure-3.1.5.jar:3.1.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.1.5.jar:3.1.5]
+	... 27 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "7070;"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[na:na]
+	at java.base/java.lang.Integer.parseInt(Integer.java:665) ~[na:na]
+	at java.base/java.lang.Integer.valueOf(Integer.java:992) ~[na:na]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:203) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:64) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:50) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:436) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41) ~[spring-core-6.0.13.jar:6.0.13]
+	... 37 common frames omitted
+
+2023-11-15T07:48:01.474+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.2 with PID 12328 (E:\dev-spring-boot\demo\target\classes started by Salam in E:\dev-spring-boot\demo)
+2023-11-15T07:48:01.474+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T07:48:01.944+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-11-15T07:48:01.945+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T07:48:01.945+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T07:48:01.971+03:30  INFO 12328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15T07:48:01.971+03:30  INFO 12328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 493 ms
+2023-11-15T07:48:02.193+03:30  WARN 12328 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cacdb86e-d667-4fb3-84c4-246572041de8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-15T07:48:02.211+03:30  INFO 12328 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-11-15T07:48:02.217+03:30  INFO 12328 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@290b10d4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@336dea04, org.springframework.security.web.context.SecurityContextHolderFilter@44bbff97, org.springframework.security.web.header.HeaderWriterFilter@285c614a, org.springframework.web.filter.CorsFilter@1788ef95, org.springframework.security.web.csrf.CsrfFilter@401fa887, org.springframework.security.web.authentication.logout.LogoutFilter@21149b76, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2550323e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1081544a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6d7f051c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@72610d9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@795d3c17, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b9c2842, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c0325d7, org.springframework.security.web.access.ExceptionTranslationFilter@18275896, org.springframework.security.web.access.intercept.AuthorizationFilter@47f4ca21]
+2023-11-15T07:48:02.234+03:30  INFO 12328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-15T07:48:02.250+03:30  WARN 12328 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-11-15T07:48:02.253+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-15T07:48:02.265+03:30  INFO 12328 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-15T07:48:02.270+03:30 ERROR 12328 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 7070 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 7070 or configure this application to listen on another port.
+
+2023-11-15T07:48:17.847+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.2 with PID 12328 (E:\dev-spring-boot\demo\target\classes started by Salam in E:\dev-spring-boot\demo)
+2023-11-15T07:48:17.847+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T07:48:18.292+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7071 (http)
+2023-11-15T07:48:18.294+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T07:48:18.295+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T07:48:18.324+03:30  INFO 12328 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-11-15T07:48:18.324+03:30  INFO 12328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 475 ms
+2023-11-15T07:48:18.516+03:30  WARN 12328 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5fce0941-0fbc-40ab-a4e3-31dfc2eca820
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-15T07:48:18.531+03:30  INFO 12328 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-11-15T07:48:18.540+03:30  INFO 12328 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f7d3c08, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d2945f8, org.springframework.security.web.context.SecurityContextHolderFilter@1cc499a7, org.springframework.security.web.header.HeaderWriterFilter@7d775845, org.springframework.web.filter.CorsFilter@6f017a2, org.springframework.security.web.csrf.CsrfFilter@9faa203, org.springframework.security.web.authentication.logout.LogoutFilter@6e85401, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34dff9b6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6829277d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6c7713d3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@50a74956, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4072ca86, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f5bf7a3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6aecef29, org.springframework.security.web.access.ExceptionTranslationFilter@2e5833d8, org.springframework.security.web.access.intercept.AuthorizationFilter@574d8eed]
+2023-11-15T07:48:18.563+03:30  INFO 12328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-15T07:48:18.588+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7071 (http) with context path ''
+2023-11-15T07:48:18.599+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.786 seconds (process running for 1026.239)
+2023-11-15T07:48:18.602+03:30  INFO 12328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-15T07:48:54.330+03:30  INFO 12328 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-15T07:48:54.349+03:30  INFO 12328 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-15T07:48:54.429+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.2 with PID 12328 (E:\dev-spring-boot\demo\target\classes started by Salam in E:\dev-spring-boot\demo)
+2023-11-15T07:48:54.429+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T07:48:54.851+03:30  WARN 12328 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-11-15T07:48:54.862+03:30  INFO 12328 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-15T07:48:54.867+03:30 ERROR 12328 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:610) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.5.jar:3.1.5]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.5.jar:3.1.5]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: ContextPath must start with '/' and not end with '/'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:605) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:218) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161) ~[spring-boot-3.1.5.jar:3.1.5]
+	... 11 common frames omitted
+Caused by: java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory.checkContextPath(AbstractServletWebServerFactory.java:139) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory.setContextPath(AbstractServletWebServerFactory.java:128) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.context.properties.PropertyMapper$Source.to(PropertyMapper.java:294) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer.customize(ServletWebServerFactoryCustomizer.java:82) ~[spring-boot-autoconfigure-3.1.5.jar:3.1.5]
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer.customize(ServletWebServerFactoryCustomizer.java:43) ~[spring-boot-autoconfigure-3.1.5.jar:3.1.5]
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.lambda$postProcessBeforeInitialization$0(WebServerFactoryCustomizerBeanPostProcessor.java:72) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.util.LambdaSafe$Callbacks.lambda$invoke$0(LambdaSafe.java:287) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.util.LambdaSafe$LambdaSafeCallback.invoke(LambdaSafe.java:159) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.util.LambdaSafe$Callbacks.lambda$invoke$1(LambdaSafe.java:286) ~[spring-boot-3.1.5.jar:3.1.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1092) ~[na:na]
+	at org.springframework.boot.util.LambdaSafe$Callbacks.invoke(LambdaSafe.java:286) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:72) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:58) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:419) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.13.jar:6.0.13]
+	... 19 common frames omitted
+
+2023-11-15T07:49:06.446+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.2 with PID 12328 (E:\dev-spring-boot\demo\target\classes started by Salam in E:\dev-spring-boot\demo)
+2023-11-15T07:49:06.446+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T07:49:06.813+03:30  WARN 12328 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-11-15T07:49:06.824+03:30  INFO 12328 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-15T07:49:06.828+03:30 ERROR 12328 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:610) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.5.jar:3.1.5]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.5.jar:3.1.5]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: ContextPath must start with '/' and not end with '/'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:605) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:218) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161) ~[spring-boot-3.1.5.jar:3.1.5]
+	... 11 common frames omitted
+Caused by: java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory.checkContextPath(AbstractServletWebServerFactory.java:139) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory.setContextPath(AbstractServletWebServerFactory.java:128) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.context.properties.PropertyMapper$Source.to(PropertyMapper.java:294) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer.customize(ServletWebServerFactoryCustomizer.java:82) ~[spring-boot-autoconfigure-3.1.5.jar:3.1.5]
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer.customize(ServletWebServerFactoryCustomizer.java:43) ~[spring-boot-autoconfigure-3.1.5.jar:3.1.5]
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.lambda$postProcessBeforeInitialization$0(WebServerFactoryCustomizerBeanPostProcessor.java:72) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.util.LambdaSafe$Callbacks.lambda$invoke$0(LambdaSafe.java:287) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.util.LambdaSafe$LambdaSafeCallback.invoke(LambdaSafe.java:159) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.util.LambdaSafe$Callbacks.lambda$invoke$1(LambdaSafe.java:286) ~[spring-boot-3.1.5.jar:3.1.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1092) ~[na:na]
+	at org.springframework.boot.util.LambdaSafe$Callbacks.invoke(LambdaSafe.java:286) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:72) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:58) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:419) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.13.jar:6.0.13]
+	... 19 common frames omitted
+
+2023-11-15T07:49:27.481+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.2 with PID 12328 (E:\dev-spring-boot\demo\target\classes started by Salam in E:\dev-spring-boot\demo)
+2023-11-15T07:49:27.482+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T07:49:27.845+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7071 (http)
+2023-11-15T07:49:27.845+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T07:49:27.846+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T07:49:27.866+03:30  INFO 12328 --- [restartedMain] o.a.c.c.C.[.[localhost].[/demo]          : Initializing Spring embedded WebApplicationContext
+2023-11-15T07:49:27.866+03:30  INFO 12328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 382 ms
+2023-11-15T07:49:28.041+03:30  WARN 12328 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5ec6ffed-0ebf-4a38-95bb-7b29ae2ce913
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-15T07:49:28.049+03:30  INFO 12328 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-11-15T07:49:28.055+03:30  INFO 12328 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@499cc1cc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e82221f, org.springframework.security.web.context.SecurityContextHolderFilter@3d9cbd10, org.springframework.security.web.header.HeaderWriterFilter@4294eb7c, org.springframework.web.filter.CorsFilter@a095ea0, org.springframework.security.web.csrf.CsrfFilter@1951da6b, org.springframework.security.web.authentication.logout.LogoutFilter@32ae42dc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c5b1a9d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@d3e2144, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@57161342, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@667766ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a89aa4a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6894e821, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@782b2acd, org.springframework.security.web.access.ExceptionTranslationFilter@321e0822, org.springframework.security.web.access.intercept.AuthorizationFilter@17c5bbb]
+2023-11-15T07:49:28.071+03:30  INFO 12328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-15T07:49:28.090+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7071 (http) with context path '/demo'
+2023-11-15T07:49:28.100+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.657 seconds (process running for 1095.741)
+2023-11-15T07:49:28.103+03:30  INFO 12328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-15T07:49:51.400+03:30  INFO 12328 --- [http-nio-7071-exec-2] o.a.c.c.C.[.[localhost].[/demo]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15T07:49:51.400+03:30  INFO 12328 --- [http-nio-7071-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15T07:49:51.403+03:30  INFO 12328 --- [http-nio-7071-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-11-15T07:52:10.608+03:30  INFO 12328 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-15T07:52:10.630+03:30  INFO 12328 --- [Thread-26] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-15T07:52:10.630+03:30  INFO 12328 --- [Thread-26] o.a.c.c.C.[.[localhost].[/demo]          : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-15T07:52:10.750+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.2 with PID 12328 (E:\dev-spring-boot\demo\target\classes started by Salam in E:\dev-spring-boot\demo)
+2023-11-15T07:52:10.751+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T07:52:11.139+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7071 (http)
+2023-11-15T07:52:11.140+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T07:52:11.140+03:30  INFO 12328 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T07:52:11.160+03:30  INFO 12328 --- [restartedMain] o.a.c.c.C.[.[localhost].[/demo]          : Initializing Spring embedded WebApplicationContext
+2023-11-15T07:52:11.160+03:30  INFO 12328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 406 ms
+2023-11-15T07:52:11.390+03:30  WARN 12328 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e8a21d63-89fd-43a9-843a-268b4fd413e2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-15T07:52:11.400+03:30  INFO 12328 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-15T07:52:11.403+03:30  INFO 12328 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7f2b7104, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e110b77, org.springframework.security.web.context.SecurityContextHolderFilter@1dd3bb84, org.springframework.security.web.header.HeaderWriterFilter@49992e10, org.springframework.web.filter.CorsFilter@320373eb, org.springframework.security.web.csrf.CsrfFilter@69bd14cc, org.springframework.security.web.authentication.logout.LogoutFilter@39b151d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@24d71b2d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@51338372, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7180ec03, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@19cb5171, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c49d786, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51dacef7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55870066, org.springframework.security.web.access.ExceptionTranslationFilter@14fb34ac, org.springframework.security.web.access.intercept.AuthorizationFilter@4954e518]
+2023-11-15T07:52:11.417+03:30  INFO 12328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-15T07:52:11.436+03:30  INFO 12328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7071 (http) with context path '/demo'
+2023-11-15T07:52:11.450+03:30  INFO 12328 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.734 seconds (process running for 1259.091)
+2023-11-15T07:52:11.453+03:30  INFO 12328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-15T07:52:14.139+03:30  INFO 12328 --- [http-nio-7071-exec-2] o.a.c.c.C.[.[localhost].[/demo]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15T07:52:14.139+03:30  INFO 12328 --- [http-nio-7071-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15T07:52:14.140+03:30  INFO 12328 --- [http-nio-7071-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-15T07:54:01.484+03:30  INFO 11672 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.2 with PID 11672 (E:\dev-spring-boot\demo\target\classes started by Salam in E:\dev-spring-boot\demo)
+2023-11-15T07:54:01.486+03:30  INFO 11672 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T07:54:01.557+03:30  INFO 11672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-15T07:54:01.558+03:30  INFO 11672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-15T07:54:03.412+03:30  INFO 11672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7071 (http)
+2023-11-15T07:54:03.423+03:30  INFO 11672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T07:54:03.424+03:30  INFO 11672 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T07:54:03.489+03:30  INFO 11672 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2023-11-15T07:54:03.490+03:30  INFO 11672 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1931 ms
+2023-11-15T07:54:04.263+03:30  WARN 11672 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7dc71a48-61c3-4250-af71-0d607392beb2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-15T07:54:04.421+03:30  INFO 11672 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-15T07:54:04.436+03:30  INFO 11672 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6c6c9145, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a7245fa, org.springframework.security.web.context.SecurityContextHolderFilter@5960ebba, org.springframework.security.web.header.HeaderWriterFilter@1ca910fc, org.springframework.web.filter.CorsFilter@532f4a11, org.springframework.security.web.csrf.CsrfFilter@3a92711c, org.springframework.security.web.authentication.logout.LogoutFilter@723006ff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@455d6b9e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@54b32850, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@77c42a7e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2162f953, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@570947dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a58228, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7faa7b7a, org.springframework.security.web.access.ExceptionTranslationFilter@30a1199b, org.springframework.security.web.access.intercept.AuthorizationFilter@1eb08af7]
+2023-11-15T07:54:04.489+03:30  INFO 11672 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-15T07:54:04.581+03:30  INFO 11672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7071 (http) with context path '/demo'
+2023-11-15T07:54:04.602+03:30  INFO 11672 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 3.698 seconds (process running for 4.687)
+2023-11-15T07:54:05.016+03:30  INFO 11672 --- [RMI TCP Connection(2)-192.168.1.101] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15T07:54:05.016+03:30  INFO 11672 --- [RMI TCP Connection(2)-192.168.1.101] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15T07:54:05.018+03:30  INFO 11672 --- [RMI TCP Connection(2)-192.168.1.101] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

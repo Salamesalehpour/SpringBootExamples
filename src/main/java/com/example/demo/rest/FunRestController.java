@@ -11,6 +11,11 @@ public class FunRestController {
     private String message;
     @GetMapping("/")
     public String sayHello(){
-        return message;
+        return message + " !!!";
+    }
+
+    @GetMapping("/workout")
+    public String getDailyWorkout() {
+        return "Run a hard 5k!";
     }
 }
